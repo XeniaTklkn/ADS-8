@@ -1,14 +1,10 @@
 // Copyright 2021 NNTU-CS
 #include <algorithm>
-#include <cctype>
 #include <fstream>
 #include <iostream>
-#include <locale>
-#include <cstdlib>
 #include <string>
 #include <utility>
 #include <vector>
-#include <utility>
 
 #include "bst.h"
 
