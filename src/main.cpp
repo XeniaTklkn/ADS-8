@@ -6,8 +6,7 @@
 void makeTree(BST<std::string>& tree,
               const char* filename);
 void printFreq(BST<std::string>& tree);
-int main()
-{
+int main() {
     BST<std::string> tree;
     makeTree(tree, "src/war_peace.txt");
     std::cout << "Depth = "
