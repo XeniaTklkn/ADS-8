@@ -11,8 +11,7 @@ void makeTree(BST<std::string>& tree, const char* filename) {
   if (!file) return;
   std::string word;
   char ch;
-  while (file.get(ch))
-  {
+  while (file.get(ch)) {
       if ((ch >= 'A' && ch <= 'Z') ||
           (ch >= 'a' && ch <= 'z')) {
           word += std::tolower(ch);
